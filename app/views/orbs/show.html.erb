@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @orb.title %>
+</p>
+<p>
+  <b>Books:</b>
+    <% @orb.books.each do |book| %>
+    <%= book.name %>|
+</p>
+
+
+<%= link_to 'Edit', edit_orb_path(@orb) %> |
+<%= link_to 'Back', orbs_path %>
