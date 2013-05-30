@@ -1,0 +1,4 @@
+books
+=====
+
+Checkbox with HABTM
